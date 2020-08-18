@@ -1,0 +1,16 @@
+var svgw = window.innerWidth;
+var autofontsize = 0.015 * svgw;
+var leftpad=0.02*svgw;
+document.writeln(`<div class='row-fluid' style='padding-top:${leftpad}px;margin-left:${leftpad}px;margin-right:${leftpad}px'>`);
+document.writeln(`	<h4><span data-i18n-text='welcome'></span></h4>`);
+document.writeln(`	<div class='input-group' style='height:${leftpad}px !important;'>`);
+document.writeln("		<span class=\'input-group-btn\'><label class=\'btn btncolor\'>&nbsp;&nbsp;SLU&nbsp;&nbsp;</label></span><input");
+document.writeln("			id=\'searchkeys\' type=\'text\' class=\'form-control\'");
+document.writeln("			data-i18n-placeholder=\'SearchTips\'> <span");
+document.writeln("			class=\'input-group-btn\'>");
+document.writeln("			<button id=\'searchbtn\' class=\'btn btncolor\' type=\'button\'>");
+document.writeln("				<span class=\'glyphicon glyphicon-search\'></span>");
+document.writeln("			</button>");
+document.writeln("		</span>");
+document.writeln("	</div>");
+document.writeln("</div>");

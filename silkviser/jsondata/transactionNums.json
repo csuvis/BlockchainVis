@@ -1,0 +1,813 @@
+[
+    {
+        "date": "2019-03-31",
+        "dateTime": 1553990400,
+        "transaction_count": 415,
+        "block_count": 183,
+        "reward_sum": 183,
+        "txfee_sum": 0.2376648,
+        "interest_sum": 0
+    },
+    {
+        "date": "2019-03-30",
+        "dateTime": 1553904000,
+        "transaction_count": 1367,
+        "block_count": 607,
+        "reward_sum": 607,
+        "txfee_sum": 0.6424975,
+        "interest_sum": 0
+    },
+    {
+        "date": "2019-03-29",
+        "dateTime": 1553817600,
+        "transaction_count": 1446,
+        "block_count": 601,
+        "reward_sum": 601,
+        "txfee_sum": 1.4520367,
+        "interest_sum": 0
+    },
+    {
+        "date": "2019-03-28",
+        "dateTime": 1553731200,
+        "transaction_count": 1424,
+        "block_count": 610,
+        "reward_sum": 610,
+        "txfee_sum": 1.08697757,
+        "interest_sum": 0
+    },
+    {
+        "date": "2019-03-27",
+        "dateTime": 1553644800,
+        "transaction_count": 1307,
+        "block_count": 589,
+        "reward_sum": 589,
+        "txfee_sum": 0.5162413,
+        "interest_sum": 0
+    },
+    {
+        "date": "2019-03-26",
+        "dateTime": 1553558400,
+        "transaction_count": 1288,
+        "block_count": 582,
+        "reward_sum": 582,
+        "txfee_sum": 0.6292885,
+        "interest_sum": 0
+    },
+    {
+        "date": "2019-03-25",
+        "dateTime": 1553472000,
+        "transaction_count": 1300,
+        "block_count": 589,
+        "reward_sum": 589,
+        "txfee_sum": 0.5626244,
+        "interest_sum": 0
+    },
+    {
+        "date": "2019-03-24",
+        "dateTime": 1553385600,
+        "transaction_count": 1345,
+        "block_count": 591,
+        "reward_sum": 591,
+        "txfee_sum": 0.70437157,
+        "interest_sum": 0
+    },
+    {
+        "date": "2019-03-23",
+        "dateTime": 1553299200,
+        "transaction_count": 1354,
+        "block_count": 584,
+        "reward_sum": 584,
+        "txfee_sum": 1.36624361,
+        "interest_sum": 0
+    },
+    {
+        "date": "2019-03-22",
+        "dateTime": 1553212800,
+        "transaction_count": 1404,
+        "block_count": 592,
+        "reward_sum": 592,
+        "txfee_sum": 1.892264,
+        "interest_sum": 5.775582
+    },
+    {
+        "date": "2019-03-21",
+        "dateTime": 1553126400,
+        "transaction_count": 1311,
+        "block_count": 586,
+        "reward_sum": 586,
+        "txfee_sum": 0.72131297,
+        "interest_sum": 0
+    },
+    {
+        "date": "2019-03-20",
+        "dateTime": 1553040000,
+        "transaction_count": 1330,
+        "block_count": 574,
+        "reward_sum": 574,
+        "txfee_sum": 0.81941715,
+        "interest_sum": 0
+    },
+    {
+        "date": "2019-03-19",
+        "dateTime": 1552953600,
+        "transaction_count": 1725,
+        "block_count": 592,
+        "reward_sum": 592,
+        "txfee_sum": 4.69353781,
+        "interest_sum": 0
+    },
+    {
+        "date": "2019-03-18",
+        "dateTime": 1552867200,
+        "transaction_count": 1740,
+        "block_count": 590,
+        "reward_sum": 590,
+        "txfee_sum": 1.20362657,
+        "interest_sum": 0
+    },
+    {
+        "date": "2019-03-17",
+        "dateTime": 1552780800,
+        "transaction_count": 1280,
+        "block_count": 581,
+        "reward_sum": 581,
+        "txfee_sum": 0.40235791,
+        "interest_sum": 0
+    },
+    {
+        "date": "2019-03-16",
+        "dateTime": 1552694400,
+        "transaction_count": 3436,
+        "block_count": 595,
+        "reward_sum": 595,
+        "txfee_sum": 123.66222828,
+        "interest_sum": 120.10080836
+    },
+    {
+        "date": "2019-03-15",
+        "dateTime": 1552608000,
+        "transaction_count": 1484,
+        "block_count": 603,
+        "reward_sum": 603,
+        "txfee_sum": 24.93962401,
+        "interest_sum": 960.4635398
+    },
+    {
+        "date": "2019-03-14",
+        "dateTime": 1552521600,
+        "transaction_count": 1451,
+        "block_count": 600,
+        "reward_sum": 600,
+        "txfee_sum": 0.92762495,
+        "interest_sum": 998.90470994
+    },
+    {
+        "date": "2019-03-13",
+        "dateTime": 1552435200,
+        "transaction_count": 1433,
+        "block_count": 611,
+        "reward_sum": 611,
+        "txfee_sum": 0.86698365,
+        "interest_sum": 1129.55473608
+    },
+    {
+        "date": "2019-03-12",
+        "dateTime": 1552348800,
+        "transaction_count": 1455,
+        "block_count": 607,
+        "reward_sum": 607,
+        "txfee_sum": 1.0033601,
+        "interest_sum": 1035.81851515
+    },
+    {
+        "date": "2019-03-11",
+        "dateTime": 1552262400,
+        "transaction_count": 1542,
+        "block_count": 574,
+        "reward_sum": 574,
+        "txfee_sum": 1.3274686,
+        "interest_sum": 1071.60093472
+    },
+    {
+        "date": "2019-03-10",
+        "dateTime": 1552176000,
+        "transaction_count": 1361,
+        "block_count": 562,
+        "reward_sum": 562,
+        "txfee_sum": 0.8819496,
+        "interest_sum": 961.59015354
+    },
+    {
+        "date": "2019-03-09",
+        "dateTime": 1552089600,
+        "transaction_count": 1340,
+        "block_count": 583,
+        "reward_sum": 583,
+        "txfee_sum": 0.6997872,
+        "interest_sum": 1250.26808362
+    },
+    {
+        "date": "2019-03-08",
+        "dateTime": 1552003200,
+        "transaction_count": 1584,
+        "block_count": 598,
+        "reward_sum": 598,
+        "txfee_sum": 1.62831215,
+        "interest_sum": 1157.09248103
+    },
+    {
+        "date": "2019-03-07",
+        "dateTime": 1551916800,
+        "transaction_count": 1689,
+        "block_count": 608,
+        "reward_sum": 608,
+        "txfee_sum": 1.74739266,
+        "interest_sum": 1142.37753368
+    },
+    {
+        "date": "2019-03-06",
+        "dateTime": 1551830400,
+        "transaction_count": 1462,
+        "block_count": 595,
+        "reward_sum": 595,
+        "txfee_sum": 1.19669648,
+        "interest_sum": 951.59239834
+    },
+    {
+        "date": "2019-03-05",
+        "dateTime": 1551744000,
+        "transaction_count": 1480,
+        "block_count": 608,
+        "reward_sum": 608,
+        "txfee_sum": 0.99825961,
+        "interest_sum": 1036.32485329
+    },
+    {
+        "date": "2019-03-04",
+        "dateTime": 1551657600,
+        "transaction_count": 3648,
+        "block_count": 596,
+        "reward_sum": 596,
+        "txfee_sum": 1.80615334,
+        "interest_sum": 1074.6702738
+    },
+    {
+        "date": "2019-03-03",
+        "dateTime": 1551571200,
+        "transaction_count": 1761,
+        "block_count": 590,
+        "reward_sum": 590,
+        "txfee_sum": 2.27273961,
+        "interest_sum": 1056.43188948
+    },
+    {
+        "date": "2019-03-02",
+        "dateTime": 1551484800,
+        "transaction_count": 1768,
+        "block_count": 595,
+        "reward_sum": 595,
+        "txfee_sum": 2.3160792,
+        "interest_sum": 1240.87653948
+    },
+    {
+        "date": "2019-03-01",
+        "dateTime": 1551398400,
+        "transaction_count": 1522,
+        "block_count": 601,
+        "reward_sum": 601,
+        "txfee_sum": 1.5223706,
+        "interest_sum": 1130.13093605
+    },
+       {
+        "date": "2019-02-28",
+        "dateTime": 1551312000,
+        "transaction_count": 1566,
+        "block_count": 600,
+        "reward_sum": 600,
+        "txfee_sum": 1.46412,
+        "interest_sum": 1243.29186877
+    },
+    {
+        "date": "2019-02-27",
+        "dateTime": 1551225600,
+        "transaction_count": 1665,
+        "block_count": 588,
+        "reward_sum": 588,
+        "txfee_sum": 1.99522846,
+        "interest_sum": 1204.54986716
+    },
+    {
+        "date": "2019-02-26",
+        "dateTime": 1551139200,
+        "transaction_count": 1628,
+        "block_count": 569,
+        "reward_sum": 569,
+        "txfee_sum": 2.69217389,
+        "interest_sum": 965.28376946
+    },
+    {
+        "date": "2019-02-25",
+        "dateTime": 1551052800,
+        "transaction_count": 1476,
+        "block_count": 596,
+        "reward_sum": 596,
+        "txfee_sum": 2.26484611,
+        "interest_sum": 1116.80358876
+    },
+    {
+        "date": "2019-02-24",
+        "dateTime": 1550966400,
+        "transaction_count": 1460,
+        "block_count": 597,
+        "reward_sum": 597,
+        "txfee_sum": 1.5294416,
+        "interest_sum": 1063.34467037
+    },
+    {
+        "date": "2019-02-23",
+        "dateTime": 1550880000,
+        "transaction_count": 1437,
+        "block_count": 591,
+        "reward_sum": 591,
+        "txfee_sum": 1.8161138,
+        "interest_sum": 1185.70843292
+    },
+    {
+        "date": "2019-02-22",
+        "dateTime": 1550793600,
+        "transaction_count": 1456,
+        "block_count": 574,
+        "reward_sum": 574,
+        "txfee_sum": 2.6876599,
+        "interest_sum": 1113.22552045
+    },
+    {
+        "date": "2019-02-21",
+        "dateTime": 1550707200,
+        "transaction_count": 1512,
+        "block_count": 582,
+        "reward_sum": 582,
+        "txfee_sum": 3.61156743,
+        "interest_sum": 1238.22957129
+    },
+    {
+        "date": "2019-02-20",
+        "dateTime": 1550620800,
+        "transaction_count": 1393,
+        "block_count": 572,
+        "reward_sum": 572,
+        "txfee_sum": 2.45381851,
+        "interest_sum": 1231.46602318
+    },
+    {
+        "date": "2019-02-19",
+        "dateTime": 1550534400,
+        "transaction_count": 1483,
+        "block_count": 588,
+        "reward_sum": 588,
+        "txfee_sum": 1.71386275,
+        "interest_sum": 1059.91980733
+    },
+    {
+        "date": "2019-02-18",
+        "dateTime": 1550448000,
+        "transaction_count": 1491,
+        "block_count": 594,
+        "reward_sum": 594,
+        "txfee_sum": 1.30219478,
+        "interest_sum": 994.30680043
+    },
+    {
+        "date": "2019-02-17",
+        "dateTime": 1550361600,
+        "transaction_count": 1650,
+        "block_count": 601,
+        "reward_sum": 601,
+        "txfee_sum": 51.54766759,
+        "interest_sum": 1490.93401331
+    },
+    {
+        "date": "2019-02-16",
+        "dateTime": 1550275200,
+        "transaction_count": 1542,
+        "block_count": 581,
+        "reward_sum": 581,
+        "txfee_sum": 12.43579418,
+        "interest_sum": 3199.41445227
+    },
+    {
+        "date": "2019-02-15",
+        "dateTime": 1550188800,
+        "transaction_count": 1459,
+        "block_count": 573,
+        "reward_sum": 573,
+        "txfee_sum": 1.22796525,
+        "interest_sum": 3374.60552175
+    },
+    {
+        "date": "2019-02-14",
+        "dateTime": 1550102400,
+        "transaction_count": 1452,
+        "block_count": 576,
+        "reward_sum": 576,
+        "txfee_sum": 1.14014088,
+        "interest_sum": 3112.59714755
+    },
+    {
+        "date": "2019-02-13",
+        "dateTime": 1550016000,
+        "transaction_count": 1571,
+        "block_count": 576,
+        "reward_sum": 576,
+        "txfee_sum": 1.47312558,
+        "interest_sum": 3325.4159085
+    },
+    {
+        "date": "2019-02-12",
+        "dateTime": 1549929600,
+        "transaction_count": 1841,
+        "block_count": 588,
+        "reward_sum": 588,
+        "txfee_sum": 2.45313229,
+        "interest_sum": 3400.66425154
+    },
+    {
+        "date": "2019-02-11",
+        "dateTime": 1549843200,
+        "transaction_count": 1525,
+        "block_count": 599,
+        "reward_sum": 599,
+        "txfee_sum": 1.1996688,
+        "interest_sum": 3491.32402344
+    },
+    {
+        "date": "2019-02-10",
+        "dateTime": 1549756800,
+        "transaction_count": 1448,
+        "block_count": 602,
+        "reward_sum": 602,
+        "txfee_sum": 0.871972,
+        "interest_sum": 3360.21258864
+    },
+    {
+        "date": "2019-02-09",
+        "dateTime": 1549670400,
+        "transaction_count": 1454,
+        "block_count": 584,
+        "reward_sum": 584,
+        "txfee_sum": 1.6040136,
+        "interest_sum": 3022.04304059
+    },
+    {
+        "date": "2019-02-08",
+        "dateTime": 1549584000,
+        "transaction_count": 1520,
+        "block_count": 585,
+        "reward_sum": 585,
+        "txfee_sum": 2.140416,
+        "interest_sum": 3245.21708016
+    },
+    {
+        "date": "2019-02-07",
+        "dateTime": 1549497600,
+        "transaction_count": 1557,
+        "block_count": 585,
+        "reward_sum": 585,
+        "txfee_sum": 1.3899992,
+        "interest_sum": 3161.80620456
+    },
+    {
+        "date": "2019-02-06",
+        "dateTime": 1549411200,
+        "transaction_count": 1486,
+        "block_count": 577,
+        "reward_sum": 577,
+        "txfee_sum": 1.1683136,
+        "interest_sum": 3259.76862674
+    },
+    {
+        "date": "2019-02-05",
+        "dateTime": 1549324800,
+        "transaction_count": 1517,
+        "block_count": 598,
+        "reward_sum": 598,
+        "txfee_sum": 1.2967336,
+        "interest_sum": 3514.69952515
+    },
+    {
+        "date": "2019-02-04",
+        "dateTime": 1549238400,
+        "transaction_count": 1642,
+        "block_count": 605,
+        "reward_sum": 605,
+        "txfee_sum": 1.45243281,
+        "interest_sum": 3434.08793976
+    },
+    {
+        "date": "2019-02-03",
+        "dateTime": 1549152000,
+        "transaction_count": 1843,
+        "block_count": 593,
+        "reward_sum": 593,
+        "txfee_sum": 9.44395271,
+        "interest_sum": 3128.81596974
+    },
+    {
+        "date": "2019-02-02",
+        "dateTime": 1549065600,
+        "transaction_count": 1945,
+        "block_count": 589,
+        "reward_sum": 589,
+        "txfee_sum": 8.85490708,
+        "interest_sum": 3549.40706303
+    },
+    {
+        "date": "2019-02-01",
+        "dateTime": 1548979200,
+        "transaction_count": 2732,
+        "block_count": 588,
+        "reward_sum": 588,
+        "txfee_sum": 22.13149056,
+        "interest_sum": 3330.75590074
+    },
+    {
+        "date": "2019-01-31",
+        "dateTime": 1548892800,
+        "transaction_count": 2143,
+        "block_count": 569,
+        "reward_sum": 569,
+        "txfee_sum": 17.19683779,
+        "interest_sum": 3179.93332337
+    },
+    {
+        "date": "2019-01-30",
+        "dateTime": 1548806400,
+        "transaction_count": 1931,
+        "block_count": 575,
+        "reward_sum": 575,
+        "txfee_sum": 8.61243355,
+        "interest_sum": 3011.47212082
+    },
+    {
+        "date": "2019-01-29",
+        "dateTime": 1548720000,
+        "transaction_count": 2085,
+        "block_count": 590,
+        "reward_sum": 590,
+        "txfee_sum": 3.90699149,
+        "interest_sum": 3153.77946651
+    },
+    {
+        "date": "2019-01-28",
+        "dateTime": 1548633600,
+        "transaction_count": 1519,
+        "block_count": 575,
+        "reward_sum": 575,
+        "txfee_sum": 1.2471514,
+        "interest_sum": 3383.04319
+    },
+    {
+        "date": "2019-01-27",
+        "dateTime": 1548547200,
+        "transaction_count": 1553,
+        "block_count": 583,
+        "reward_sum": 583,
+        "txfee_sum": 1.2571968,
+        "interest_sum": 3221.49183346
+    },
+    {
+        "date": "2019-01-26",
+        "dateTime": 1548460800,
+        "transaction_count": 1773,
+        "block_count": 601,
+        "reward_sum": 601,
+        "txfee_sum": 2.1198004,
+        "interest_sum": 3440.25242873
+    },
+    {
+        "date": "2019-01-25",
+        "dateTime": 1548374400,
+        "transaction_count": 1956,
+        "block_count": 604,
+        "reward_sum": 604,
+        "txfee_sum": 7.52463089,
+        "interest_sum": 3469.9451649
+    },
+    {
+        "date": "2019-01-24",
+        "dateTime": 1548288000,
+        "transaction_count": 1737,
+        "block_count": 570,
+        "reward_sum": 570,
+        "txfee_sum": 9.08950559,
+        "interest_sum": 2885.94056938
+    },
+    {
+        "date": "2019-01-23",
+        "dateTime": 1548201600,
+        "transaction_count": 1958,
+        "block_count": 583,
+        "reward_sum": 583,
+        "txfee_sum": 19.75955107,
+        "interest_sum": 3063.43792735
+    },
+    {
+        "date": "2019-01-22",
+        "dateTime": 1548115200,
+        "transaction_count": 2001,
+        "block_count": 579,
+        "reward_sum": 579,
+        "txfee_sum": 21.67746137,
+        "interest_sum": 2971.58250146
+    },
+    {
+        "date": "2019-01-21",
+        "dateTime": 1548028800,
+        "transaction_count": 2269,
+        "block_count": 579,
+        "reward_sum": 579,
+        "txfee_sum": 11.2621602,
+        "interest_sum": 3413.04096923
+    },
+    {
+        "date": "2019-01-20",
+        "dateTime": 1547942400,
+        "transaction_count": 3101,
+        "block_count": 606,
+        "reward_sum": 606,
+        "txfee_sum": 8.17460058,
+        "interest_sum": 3399.60773856
+    },
+    {
+        "date": "2019-01-19",
+        "dateTime": 1547856000,
+        "transaction_count": 4568,
+        "block_count": 600,
+        "reward_sum": 600,
+        "txfee_sum": 8.11131453,
+        "interest_sum": 3413.17878003
+    },
+    {
+        "date": "2019-01-18",
+        "dateTime": 1547769600,
+        "transaction_count": 6871,
+        "block_count": 601,
+        "reward_sum": 601,
+        "txfee_sum": 16.33140068,
+        "interest_sum": 3091.81704228
+    },
+    {
+        "date": "2019-01-17",
+        "dateTime": 1547683200,
+        "transaction_count": 11493,
+        "block_count": 597,
+        "reward_sum": 597,
+        "txfee_sum": 178.39521286,
+        "interest_sum": 3338.46487331
+    },
+    {
+        "date": "2019-01-16",
+        "dateTime": 1547596800,
+        "transaction_count": 2129,
+        "block_count": 589,
+        "reward_sum": 589,
+        "txfee_sum": 7.28251228,
+        "interest_sum": 3299.82414655
+    },
+    {
+        "date": "2019-01-15",
+        "dateTime": 1547510400,
+        "transaction_count": 1997,
+        "block_count": 574,
+        "reward_sum": 574,
+        "txfee_sum": 7.88125961,
+        "interest_sum": 3127.07796214
+    },
+    {
+        "date": "2019-01-14",
+        "dateTime": 1547424000,
+        "transaction_count": 1850,
+        "block_count": 575,
+        "reward_sum": 575,
+        "txfee_sum": 5.4572721,
+        "interest_sum": 3429.3177739
+    },
+    {
+        "date": "2019-01-13",
+        "dateTime": 1547337600,
+        "transaction_count": 3145,
+        "block_count": 576,
+        "reward_sum": 576,
+        "txfee_sum": 17.05560901,
+        "interest_sum": 3093.59668243
+    },
+    {
+        "date": "2019-01-12",
+        "dateTime": 1547251200,
+        "transaction_count": 1769,
+        "block_count": 593,
+        "reward_sum": 593,
+        "txfee_sum": 1.89289275,
+        "interest_sum": 3204.62545253
+    },
+    {
+        "date": "2019-01-11",
+        "dateTime": 1547164800,
+        "transaction_count": 1856,
+        "block_count": 575,
+        "reward_sum": 575,
+        "txfee_sum": 6.40927603,
+        "interest_sum": 3010.98445678
+    },
+    {
+        "date": "2019-01-10",
+        "dateTime": 1547078400,
+        "transaction_count": 2186,
+        "block_count": 586,
+        "reward_sum": 586,
+        "txfee_sum": 13.14572252,
+        "interest_sum": 3309.23997441
+    },
+    {
+        "date": "2019-01-09",
+        "dateTime": 1546992000,
+        "transaction_count": 2344,
+        "block_count": 572,
+        "reward_sum": 572,
+        "txfee_sum": 14.14247797,
+        "interest_sum": 3134.14301393
+    },
+    {
+        "date": "2019-01-08",
+        "dateTime": 1546905600,
+        "transaction_count": 2453,
+        "block_count": 593,
+        "reward_sum": 593,
+        "txfee_sum": 16.88233822,
+        "interest_sum": 3564.72209674
+    },
+    {
+        "date": "2019-01-07",
+        "dateTime": 1546819200,
+        "transaction_count": 2482,
+        "block_count": 600,
+        "reward_sum": 600,
+        "txfee_sum": 18.81330308,
+        "interest_sum": 3326.95740449
+    },
+    {
+        "date": "2019-01-06",
+        "dateTime": 1546732800,
+        "transaction_count": 2345,
+        "block_count": 585,
+        "reward_sum": 585,
+        "txfee_sum": 5.1778648,
+        "interest_sum": 3312.75423818
+    },
+    {
+        "date": "2019-01-05",
+        "dateTime": 1546646400,
+        "transaction_count": 1258,
+        "block_count": 576,
+        "reward_sum": 576,
+        "txfee_sum": 0.7370288,
+        "interest_sum": 3147.96549056
+    },
+    {
+        "date": "2019-01-04",
+        "dateTime": 1546560000,
+        "transaction_count": 1530,
+        "block_count": 573,
+        "reward_sum": 573,
+        "txfee_sum": 1.07360018,
+        "interest_sum": 3268.84072474
+    },
+    {
+        "date": "2019-01-03",
+        "dateTime": 1546473600,
+        "transaction_count": 1729,
+        "block_count": 592,
+        "reward_sum": 592,
+        "txfee_sum": 9.86147466,
+        "interest_sum": 3354.92268573
+    },
+    {
+        "date": "2019-01-02",
+        "dateTime": 1546387200,
+        "transaction_count": 2706,
+        "block_count": 584,
+        "reward_sum": 584,
+        "txfee_sum": 16.21701462,
+        "interest_sum": 3412.44650699
+    },
+    {
+        "date": "2019-01-01",
+        "dateTime": 1546300800,
+        "transaction_count": 2157,
+        "block_count": 607,
+        "reward_sum": 607,
+        "txfee_sum": 9.31736782,
+        "interest_sum": 3377.23220444
+    }
+    
+]

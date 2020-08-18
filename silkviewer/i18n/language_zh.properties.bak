@@ -1,0 +1,261 @@
+language.cn = \u4E2D\u6587
+language.en = English
+#菜单
+Home=\u9996\u9875
+OldHome=旧版
+LastBlocks=\u533A\u5757
+LastTransactions=\u4EA4\u6613
+Tokens=\u901A\u8BC1
+SilkChainApplications=\u94FE\u4E0A\u5E94\u7528
+
+#index.jsp
+LastBlockheight =\u6700\u65B0\u533A\u5757\u9AD8\u5EA6
+ViewListOfBlocks=\u67E5\u8BE2\u533A\u5757\u5217\u8868
+TheLatestBlockNo=\u6700\u65B0\u533A\u5757\u9AD8\u5EA6
+Transactions=\u4EA4\u6613\u6570
+CountAddres=持币地址数
+ViewListOfTransactions=\u67E5\u8BE2\u4EA4\u6613\u5217\u8868
+AvgBlockTime5000= \u6700\u8FD15\u5343\u4E2A\u533A\u5757\u5E73\u5747\u65F6\u95F4\uFF08\u79D2\uFF09
+TxnsPerHour7=\u6700\u8FD11\u5468\u6BCF\u5C0F\u65F6\u5E73\u5747\u4EA4\u6613\u6570
+
+#查找top
+SearchTips=\u533a\u5757\u9ad8\u5ea6\u3001\u533a\u5757\u54c8\u5e0c\u3001\u4ea4\u6613\u54c8\u5e0c\u3001\u5730\u5740
+SearchBtn=\u67E5\u627E
+
+#查找top
+TokenSearchTips = SRC20\u5408\u7EA6\u5730\u5740\u3001\u901A\u8BC1\u540D\u79F0\u3001\u533A\u5757\u53F7\u3001 \u533A\u5757\u54C8\u5E0C\u3001\u4EA4\u6613\u7F16\u53F7\u3001\u5730\u5740
+
+#首页svg区块内
+svgHeight=\u533A\u5757\u9AD8\u5EA6
+svgBlockHash=\u533A\u5757\u54C8\u5E0C
+svgPreviousBlockHash=\u4E0A\u5757\u54C8\u5E0C
+svgMerkleRoot=\u6839\u54C8\u5E0C
+svgAge=\u65F6\u95F4
+svgTrans=交易数量
+svgBytes=\u5B57\u8282
+svgSecond=\u79D2
+svgGenesisBlock=\u521B\u4E16\u5757
+svgInoutaddress=\u8F93\u5165\u8F93\u51FA\u5730\u5740\u6570
+svgSize=\u533A\u5757\u5927\u5C0F
+svgTimeDiff=\u51FA\u5757\u95F4\u9694
+svgTimeFormat=Y-m-d H\:i\:s
+svgTimeFormatYMD=Y-m-d
+svgFee = 区块奖励
+
+#最新区块列表
+bl-Last10Blocks=\u533A\u5757\u60C5\u51B5
+bl-Height=\u9AD8\u5EA6
+bl-Trans=\u4EA4\u6613\u6570
+bl-Age=\u65F6\u95F4
+tl-Last10TokenTransactions = 通证最近交易
+
+#最新区块id
+bi-Blocksinformation=区块信息
+bi-Blockheight=\u533A\u5757\u9AD8\u5EA6
+bi-Prev=\u4E0A\u4E00\u4E2A
+bi-Next=\u4E0B\u4E00\u4E2A
+bi-Blockhash=\u533a\u5757\u54c8\u5e0c
+bi-Merkleroot=\u6839\u54C8\u5E0C\u503C
+bi-Proofhash=\u8BC1\u660E\u54C8\u5E0C\u503C
+bi-minedby=\u6316\u77FF\u5730\u5740
+bi-Version=\u7248\u672C\u53F7
+bi-Size=\u533a\u5757\u5927\u5c0f
+bi-Age=\u533a\u5757\u751f\u6210\u65f6\u95f4
+bi-Nonce=\u968F\u673A\u6570
+bi-Mint=\u76EE\u6807\u503C
+bi-Flags=\u6807\u8BC6
+bi-Difficulty=\u96BE\u5EA6\u503C
+bi-Confirmations=确认次数
+bi-Transactions=交易列表
+bi-Reward = 区块津贴
+bi-Txsfee = 交易费
+bi-BlocksD3chart = 交易可视化
+bi-4-BlocksD3chart = 地址信息可视化
+
+#最新交易列表
+tl-Last10Transactions=交易列表
+tl-TxHash=\u4EA4\u6613\u7F16\u53F7
+tl-Ins=\u8F93\u5165
+tl-Outs=\u8F93\u51FA
+
+#最新交易id
+ti-TransactionInformation=\u4EA4\u6613\u4FE1\u606F
+ti-TxHash=\u4EA4\u6613\u7F16\u53F7
+ti-BlockHash=所属区块
+ti-Confirmations=\u786E\u8BA4\u6570
+ti-Vins=\u8F93\u5165\u6570
+ti-Version=\u7248\u672C
+ti-Vouts=\u8F93\u51FA\u6570
+ti-Fee=\u4EA4\u6613\u8D39
+ti-Age=\u4EA4\u6613\u65F6\u95F4
+ti-size=交易大小
+ti-BlockHeight=\u5757\u9AD8\u5EA6
+ti-Detail=输入和输出地址列表
+ti-Token=通证交易列表
+ti-TotalInput=输入总额
+ti-TotalOutput=输出总额
+bi-3-BlocksD3chart=输入和输出地址可视化
+
+#钱包地址信息
+ad-Address-title=地址信息
+ad-Address=地址哈希
+ad-NumsOfTransactions=\u4EA4\u6613\u6B21\u6570
+ad-TotalReceived =\u63A5\u6536\u603B\u989D
+ad-TotalSent =\u53D1\u51FA\u603B\u989D
+ad-FinalBalance =\u53EF\u7528\u4F59\u989D
+ad-UnconfirmedBalance=Unconfirmed Balance
+ad-TxHash=\u4EA4\u6613\u7F16\u53F7
+ad-InOut=\u72B6\u6001
+ad-Received=\u6536\u6B3E
+ad-GasChange=Gas\u627E\u96F6
+ad-Interest=\u5229\u606F
+ad-Mined=\u6316\u77FF
+ad-out=\u4ED8\u6B3E
+ad-Values=\u91D1\u989D
+ad-Age=\u65F6\u95F4
+ad-lastrec=\u4EC5\u663E\u793A\u6700\u65B0\u7684\u4EA4\u6613\u8BB0\u5F55
+ad-TokenBalance=\u901A\u8BC1\u4F59\u989D
+
+spent-cnts=\u672A\u82B1\u8D39\u652F\u51FA(UTXO)\u6570\u91CF
+spent-confirm=\u5DF2\u786E\u8BA4\u4F59\u989D
+spent-unconfirm=\u5F85\u786E\u8BA4\u4F59\u989D
+spent-note1=\u4F59\u989D\u8BF4\u660E\uFF1A
+spent-note2=\u77FF\u5DE5\u8D39\u548Cpos\u5229\u606F\u9700\u8981100\u6B21\u786E\u8BA4\u540E\u624D\u53EF\u7528\uFF0C\u8F6C\u5E10\u4EA4\u6613\u9700\u89816\u6B21\u786E\u8BA4\u540E\u624D\u53EF\u7528\u3002
+spent-fee=\u77FF\u5DE5\u8D39
+spent-interest=pos\u5229\u606F
+spent-normalTx=\u8F6C\u5E10\u4EA4\u6613
+
+spent-Txid=\u4EA4\u6613\u7F16\u53F7
+spent-Source=\u6765\u6E90
+spent-Amount=\u91D1\u989D
+spent-Age=\u65F6\u95F4
+spent-ConfNums=\u786E\u8BA4\u6570
+
+
+#链上应用
+app-title1=\u5178\u578B\u5E94\u7528
+app-note1=\u767E\u4E1A\u5B9D\u662F\u4E00\u4E2A\u4EA4\u6613\u670D\u52A1\u5E73\u53F0\uFF0C\u5546\u5BB6\u4ECE2018\u5E743\u6708\u8D77\u53EF\u4F7F\u7528SLB\u4EA4\u7EB3\u670D\u52A1\u8D39\u3002
+
+#顶部导航
+welcome=\u6b22\u8fce\u4f7f\u7528\u0053\u004c\u0055\u533a\u5757\u6d4f\u89c8\u5668
+
+#返回结果
+info-result=\u6CA1\u6709\u67E5\u8BE2\u7ED3\u679C\u3002\u8BF7\u68C0\u67E5\u8F93\u5165\u662F\u5426\u6B63\u786E\uFF0C\u4E5F\u6709\u53EF\u80FD\u533A\u5757\u6B63\u5728\u6253\u5305\u4E2D\uFF0C\u8BF7\u7A0D\u5019\u518D\u67E5\u3002
+
+#通证
+token-list = \u901A\u8BC1
+token-name = \u901A\u8BC1\u540D\u79F0
+token-supply = \u53D1\u884C\u603B\u91CF
+token-holders = \u6301\u6709\u5730\u5740\u6570
+token-code= \u5408\u7EA6\u4EE3\u7801
+
+token-info=\u901A\u8BC1\u4FE1\u606F
+token-contractaddress= \u5408\u7EA6\u5730\u5740
+token-creator= \u521B\u5EFA\u8005
+token-created_at =\u521B\u5EFA\u4E8E
+token-created_time =\u521B\u5EFA\u65F6\u95F4
+token-totalReceived =\u8F6C\u5165\u603B\u8BA1
+token-totalSent =\u8F6C\u51FA\u603B\u8BA1
+token-transactions =\u4EA4\u6613\u6570
+
+common-no=\u5E8F\u53F7
+
+#通证交易情况
+token-tx_time=\u4EA4\u6613\u65F6\u95F4
+token-transfers=\u901A\u8BC1\u4EA4\u6613\u8BB0\u5F55
+token-txhash=\u4EA4\u6613\u7F16\u53F7
+token-from=\u53D1\u9001\u5730\u5740
+token-to=\u63A5\u6536\u5730\u5740
+token-values=\u91D1\u989D
+token-time=时间
+
+#合约交易
+ctx-TransactionInformation=\u5408\u7EA6\u4EA4\u6613\u4FE1\u606F
+ctx-TxReceiptStatus=\u5408\u7EA6\u6267\u884C\u72B6\u6001
+ctx-From=\u53D1\u9001\u8005
+ctx-To=\u63A5\u6536\u8005
+ctx-GasLimit=Gas\u6700\u5927\u91CF
+ctx-GasUsedByTxn=Gas\u4F7F\u7528\u91CF
+ctx-GasPrice=Gas\u4EF7\u683C
+ctx-Fee=GAS\u9884\u6263\u624B\u7EED\u8D39
+ctx-ActualTxFee=GAS\u5B9E\u9645\u624B\u7EED\u8D39
+
+unspent=\u672A\u82B1\u8D39\u652F\u51FAUTXO
+spented=\u5DF2\u82B1\u8D39
+
+#合约代币持有地址数
+token-holder=持有者情况
+token-holder-Rank=\u5E8F\u53F7
+token-holder-Address=\u5730\u5740
+token-holder-Quantity=\u6301\u6709\u91CF
+token-holder-Percentage=\u5360\u6BD4
+main-Transactions=\u4EA4\u6613\u8BB0\u5F55
+
+NotExistTheContract=\u8BE5\u5408\u7EA6\u4E0D\u5B58\u5728\uFF0C\u6216\u5408\u7EA6\u4EE3\u7801\u4E0D\u5408\u89C4\u8303\u3002
+ContractCode01=\u8BE5\u5408\u7EA6\u6CA1\u6709\u5173\u8054\u4EE3\u7801\uFF0C\u8BF7\u7528\u521B\u5EFA\u8005\u5730\u5740\u53D1\u9001
+ContractCode02=SLU\u81F3\u3010SLUkMnnNmWM7A4HNio4wZjHGDBMgwLoAEkXS\u3011\uFF08\u8BE5\u5730\u5740\u4F59\u989D\u6C38\u8FDC\u4E0D\u4F1A\u4F7F\u7528\uFF09\u786E\u8BA4\u5408\u7EA6\u6301\u6709\u4EBA\u8EAB\u4EFD\uFF0C\u5F85\u533A\u5757\u786E\u8BA4\u540E\uFF0C\u518D\u63D0\u4EA4\u786E\u8BA4\u4EA4\u6613\u7684Txid\u548C\u5408\u7EA6\u4EE3\u7801Code \u3002
+ContractCode1=\u8BF7\u7B49\u5F85\u9A8C\u8BC1\u3002
+
+#导航
+FirtPage=\u9996\u9875
+LastPage=\u5C3E\u9875
+Rowcounts=\u603B\u6761\u6570\uFF1A
+
+#bootstrap-table
+bt-txid=交易编号
+bt-vin_count=输入地址数量
+bt-vout_count=输出地址数量
+bt-txfee=交易费/1000(slu)
+bt-size=交易大小(bytes)
+bt-vins=输入地址
+bt-vouts=输出地址
+bt-from=发送地址
+bt-to=接收地址
+bt-value=金额
+bt-confirmations=确认次数
+bt-time=时间
+
+#按钮
+btn-show=显示
+btn-hide=隐藏
+
+#坐标轴标识
+axis-values=区块数量
+axis-date=日期
+axis-txs=交易数量
+axis-x1=地址数量
+axis-x2=交易大小(bytes)
+axis-x3=交易费(slu)
+axis-amount=数量
+axis-addr-amount=交易数
+axis-addr-value=输出金额
+
+#首页图例
+g-reward_sum=区块数量
+g-txfee_sum=交易费
+g-transaction_count=交易数量
+
+title-emptynode=空节点.
+title-addr=地址
+title-value=金额
+title-spented=是否花费：是
+title-unspent=是否花费：否
+
+message=出错信息： 
+Addressinvalid=地址无效！
+Txidinvalid=交易编号无效！
+BlockHashinvalid=区块哈希无效！
+Tokeninvalid=通证合约地址无效！
+
+radio-addrcount=按地址数
+radio-txfee=按交易费
+radio-txsize=按交易大小
+
+tx_legend1=输入地址
+tx_legend2=输入地址组合
+tx_legend3=输出地址
+tx_legend4=输出地址组合
+address_chart_title1=输入输出交易统计图
+address_chart_title2=交易金额区间统计图
+#二级页面
+current_trans=交易数量

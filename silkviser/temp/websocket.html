@@ -1,0 +1,32 @@
+<html>
+<body>
+  <script src="http://sluapi.blockchaindata.top/socket.io/socket.io.js"></script>
+  <script>
+  
+    room = 'inv'
+    var socket = io("http://sluapi.blockchaindata.top");
+    socket.on('connect', function() {
+      // Join the room.
+      // socket.emit('subscribe', 'silubiumd/addressbalance',['SLSRgVF6QUUdou2jGW7pDVyb4jaTdVKaweFk']);
+      socket.emit('subscribe', 'silubiumd/rawtransaction');
+      socket.emit('subscribe', 'silubiumd/hashblock');
+      // socket.emit('subscribe', 'silubiumd/addresstxid',['SLSRgVF6QUUdou2jGW7pDVyb4jaTdVKaweFk']);
+    });
+    // socket.on('silubiumd/addressbalance', function(data) {
+    //   console.log("New silubiumd/addressbalance received: " + JSON.stringify(data));
+    // });
+    socket.on('silubiumd/rawtransaction', function(data) {
+      console.log("New silubiumd/rawtransaction received: " + JSON.stringify(data));
+    });
+    socket.on('silubiumd/hashblock', function(data) {
+      console.log("New silubiumd/hashblock received: " + JSON.stringify(data));
+    });
+    // socket.on('silubiumd/addresstxid', function(data) {
+    //   console.log("New silubiumd/addresstxid received: " + JSON.stringify(data));
+    // });
+    // socket.on('tx', function(data) {
+    //   console.log("New tx received: " + JSON.stringify(data));
+    // });
+  </script>
+</body>
+</html>

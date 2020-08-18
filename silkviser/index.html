@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!--[if lte IE 6]>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-ie6.min.css">
+    <![endif]-->
+    <!--[if lte IE 7]>
+    <link rel="stylesheet" type="text/css" href="css/ie.css">
+    <![endif]-->
+    <link href="css/style.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/d3box.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/loading.min.css">
+     <script type="text/javascript">
+        window.jQuery || document.write("<script src='/js/common/jquery.min.js'>" + "<" + "/script>");
+    </script>
+    <title>SilkViser</title>
+</head>
+
+<body>
+    <div class="container-fluid mainbg nospace">
+        <script src="/js/baseTop.min.js"></script>
+        <div class="row-fluid lrspace">
+            <div id="globalcenterdiv" class="col-xs-12 col-xm-12 col-md-12 centerbg nospace">
+                <script src="/js/searchbar.min.js"></script>
+                <div class="contentBody">
+                   <!--  <div class="row lastblock" id="lastblock">
+                        <div class="col-xs-6 col-sm-6">
+                            <a target="_blank" href="/block" data-i18n-title="ViewListOfBlocks">
+                                <span data-i18n-text="LastBlockheight"></span>：</a><a id="alastestheight" href=""
+                                target="_blank"><span id="lastestheight" data-i18n-title="TheLatestBlockNo">...</span></a>
+                        </div>
+                        <div class="col-xs-6 col-sm-6">
+                            <a target="_blank" href="/transaction" data-i18n-title="ViewListOfTransactions">
+                                <span data-i18n-text="Transactions"></span>：</a><span id="trans">...</span>
+                        </div>
+
+                    </div> -->
+                    <div id="loading" class="loadheight  hidden">
+                        <div class="load">
+                            <div class="l-1 letter">L</div>
+                            <div class="l-2 letter">o</div>
+                            <div class="l-3 letter">a</div>
+                            <div class="l-4 letter">d</div>
+                            <div class="l-5 letter">i</div>
+                            <div class="l-6 letter">n</div>
+                            <div class="l-7 letter">g</div>
+                            <div class="l-8 letter">.</div>
+                            <div class="l-9 letter">.</div>
+                            <div class="l-10 letter">.</div>
+                        </div>
+                    </div>
+                    <div id="d3layout" style="margin-top: 0px">
+                        <!-- js自动生成-->
+                    </div>
+                    <!--<div id="tjblegend" style="display:none;">
+                        <div class="row">
+                            <div class="col-xs-3 col-sm-2"><span class="bar1-rect">■ </span><span class="legend">reward_sum</span></div>
+                            <div class="col-xs-3 col-sm-2"><span class="bar2-rect">■ </span><span class="legend">txfee_sum</span></div>
+                            <div class="col-xs-3 col-sm-2"><span class="bar3-rect">■ </span><span class="legend">interest_sum</span></div>
+                            <div class="col-xs-3 col-sm-2"><span class="line2-text">━ </span><span class="legend">block_count</span></div>
+                            <div class="col-xs-3 col-sm-2"><span class="line3-text">━ </span><span class="legend">transaction_count</span></div>
+                            <div class="col-xs-3 col-sm-2"></div>
+                        </div>
+                    </div> -->
+                    <div id="d3tjb">
+                        <!-- js自动生成-->
+                    </div>
+
+                    <!--start：版权及底部信息-->
+                    <script src="/js/baseFooter.min.js"></script>
+                    <!--end:版权及底部信息-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 通用js -->
+
+    <script type="text/javascript" src="/js/common/browseType.min.js?v=6"></script>
+    <script type="text/javascript">
+        if (lowIe8()) {//判断浏览器版本 browseType.js
+            alert("哎呀，你的浏览器内核是" + IEVersion() + "，版本太低了影响显示效果，有些功能也可能不正常。升个级嘛:) 建议用火狐(firefox)或谷歌(chrome)浏览器！！！");
+        }
+    </script>
+    <!--[if lt IE 9]>
+    <script src="/js/common/html5shiv.min.js"></script>
+    <script src="/js/common/respond.min.js"></script>
+    <![endif]-->
+    <!--[if !IE]> -->
+    <script src="/js/common/jquery.2.1.1.min.js"></script>
+    <!-- <![endif]-->
+
+    <!--[if IE]>
+<script src="/js/common/jquery.1.11.1.min.js"></script>
+<![endif]-->
+    <!--[if !IE]> -->
+   
+    <!-- <![endif]-->
+
+    <!--[if IE]>
+<script type="text/javascript">
+window.jQuery || document.write("<script src='/js/common/jquery1x.min.js'>"+"<"+"/script>");
+</script>
+<![endif]-->
+    <script type="text/javascript">
+        if ('ontouchstart' in document.documentElement)
+            document
+                .write("<script src='/js/common/jquery.mobile.custom.min.js'>"
+                    + "<" + "/script>");
+    </script>
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <!-- <script src="/js/common/jquery.min.js"></script> -->
+    <script src="/js/common/bootstrap.min.js"></script>
+
+    <script src="/js/common/jquery.tips.min.js"></script>
+    <script src="/js/search.min.js"></script>
+
+    <script type="text/javascript">
+        $("#navbar-gbtag").collapse({
+            toggle: false
+        });
+        function collapse() {
+            $("#navbar-gbtag").collapse("toggle");
+        }
+        function changeTopWidth() {
+            try {
+                var leftw = $("#globalcenterdiv").position().left;
+                var centw = window.innerWidth;
+                var leftpad = 0.02 * centw;
+                console.log(centw);
+                if (leftw > 0) {
+                    $("#globalleftdiv").show();
+                    $("#globalrightdiv").show();
+                } else {
+                    $("#globalleftdiv").hide();
+                    $("#globalrightdiv").hide();
+                }
+
+                // 搜索框
+                $(".searchdiv").css("margin-left", leftpad);
+                $(".searchdiv").css("margin-right", leftpad);
+
+                $(".contentBody").css("margin-left", leftpad);
+                $(".contentBody").css("margin-right", leftpad);
+
+                $("#d3layout").css("margin-top", leftpad);
+                $("#d3tjb").css("margin-top", leftpad);
+
+                leftpad = leftw + leftpad;
+                $(".navbar-header").css("margin-left", leftpad);
+                $("#navbar-gbtag").css("margin-right", leftpad);
+                $("#navbutton").css("margin-right", leftpad);
+
+            } catch (err) {
+
+            }
+        }
+        changeTopWidth();
+        $(window).resize(function() {
+            // changeTopWidth();
+            // window.location.reload(); //手机屏上无法滑动，关闭自动刷新
+        });
+
+        //转换豪秒为日期
+        function millstodate(time) {
+            return new Date(1000 * time);
+        }
+    </script>
+    <script src="/js/common/jquery.i18n.properties.min.js"></script>
+    <script src="/js/common/language.min.js"></script>
+
+    <script src="/js/common/d3.v5.min.js"></script>
+    <script src="/js/common/date.format.min.js"></script>
+    <script src="/js/common/linetext.min.js"></script>
+    <script src="/js/common/UrlParam.min.js"></script>
+    <script src="/js/globalvar.min.js"></script>
+    <script src="/js/common/mask.min.js"></script>
+    <script src="/js/common/socket.io.min.js"></script>
+
+    <script>
+        //" + Math.random() + "
+        document.write("<script type='text/javascript' src='/js/index.min.js?t=0726'><\/script>"); 
+    </script>
+</body>
+
+</html>

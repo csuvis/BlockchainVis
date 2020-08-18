@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sankey</title>
+    <style>
+        body {
+            padding: 10px;
+            min-width: 600px;
+            max-width: 1200px;
+            margin: auto;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+        }
+
+        #chart {
+            height: 500px;
+            font: 13px sans-serif;
+        }
+
+        .chart-sankey {
+            background: #fff;
+            box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.5);
+        }
+
+        .node rect {
+            fill-opacity: .9;
+            shape-rendering: crispEdges;
+            stroke-width: 0;
+            cursor: move;
+        }
+
+        .node text {
+            text-shadow: 0 1px 0 #fff;
+        }
+
+        .link {
+            fill: none;
+            stroke: #ddd;
+            stroke-opacity: 0.5;
+            cursor: pointer;
+        }
+
+        .link title {
+            visibility: hidden;
+        }
+
+        .link:hover {
+            /*stroke-opacity: 1;*/
+        }
+
+        .link:hover title {
+            visibility: visible;
+        }
+
+        .tooltip {
+            position: absolute;
+            padding: 8px 10px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 3px;
+            pointer-events: none;
+            max-width: 200px;
+            display: none;
+            box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.3);
+            line-height: 1.2;
+            font-size: 12px;
+        }
+    </style>
+    <script src="/js/common/d3.v5.js"></script>
+    <script src="/js/common/sankey.js"></script>
+</head>
+
+<body>
+    <div id="chart">
+        <div id="tooltip" class="tooltip"></div>
+    </div>
+    <script>
+        var margin = { top: 1, right: 1, bottom: 6, left: 1 },
+            width = 960 - margin.left - margin.right,
+            height = 500 - margin.top - margin.bottom;
+        var timer;
+        var formatNumber = d3.format(",.0f"),   //decimal places
+            format = function (d) { return formatNumber(d) + " TWh"; },
+            color = d3.scaleOrdinal(d3.schemeAccent);
+        var svg = d3.select("#chart").append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+        var sankey = d3.sankey()
+            .nodeWidth(30)
+            .nodePadding(10)
+            .size([width, height]);
+
+        var path = sankey.link();
+        var toolTips = document.getElementById('tooltip');
+        var mouseHas = false
+
+        var energy = {
+            nodes: [
+                {
+                    name: "加入购物车",
+                    value: 3
+                },
+                {
+                    name: "下单",
+                    value: 2
+                },
+                {
+                    name: "付款",
+                    value: 2
+                },
+                {
+                    name: "加入购物车",
+                    value: 3
+                },
+                {
+                    name: "下单",
+                    value: 5
+                },
+                {
+                    name: "付款",
+                    value: 3
+                },
+                {
+                    name: "收货",
+                    value: 2
+                },
+                {
+                    name: "下单",
+                    value: 2
+                },
+                {
+                    name: "付款",
+                    value: 8
+                },
+                {
+                    name: "申请退款",
+                    value: 1
+                },
+                {
+                    name: "收货",
+                    value: 1
+                },
+                {
+                    name: "加入购物车",
+                    value: 1
+                },
+                {
+                    name: "付款",
+                    value: 4
+                },
+                {
+                    name: "收货",
+                    value: 3
+                },
+                {
+                    name: "付款",
+                    value: 1
+                },
+                {
+                    name: "申请退款",
+                    value: 3
+                },
+                {
+                    name: "收货",
+                    value: 7
+                },
+                {
+                    name: "退货",
+                    value: 2
+                },
+                {
+                    name: "收货",
+                    value: 1
+                }
+            ],
+            links: [
+                {
+                    source: 5,
+                    target: 10,
+                    value: 1
+                },
+                {
+                    source: 2,
+                    target: 6,
+                    value: 5
+                },
+                {
+                    source: 1,
+                    target: 5,
+                    value: 2
+                },
+                {
+                    source: 8,
+                    target: 16,
+                    value: 4
+                },
+                {
+                    source: 3,
+                    target: 8,
+                    value: 20
+                },
+                {
+                    source: 7,
+                    target: 12,
+                    value: 2
+                },
+                {
+                    source: 8,
+                    target: 13,
+                    value: 2
+                },
+                {
+                    source: 3,
+                    target: 7,
+                    value: 1
+                },
+                {
+                    source: 12,
+                    target: 15,
+                    value: 1
+                },
+                {
+                    source: 5,
+                    target: 13,
+                    value: 1
+                },
+                {
+                    source: 13,
+                    target: 17,
+                    value: 1
+                },
+                {
+                    source: 0,
+                    target: 5,
+                    value: 1
+                },
+                {
+                    source: 14,
+                    target: 18,
+                    value: 1
+                },
+                {
+                    source: 11,
+                    target: 14,
+                    value: 1
+                },
+                {
+                    source: 10,
+                    target: 17,
+                    value: 1
+                },
+                {
+                    source: 8,
+                    target: 15,
+                    value: 2
+                },
+                {
+                    source: 0,
+                    target: 4,
+                    value: 2
+                },
+                {
+                    source: 12,
+                    target: 16,
+                    value: 3
+                },
+                {
+                    source: 4,
+                    target: 8,
+                    value: 5
+                },
+                {
+                    source: 5,
+                    target: 9,
+                    value: 1
+                }
+            ]
+        }
+        sankey
+            .nodes(energy.nodes)
+            .links(energy.links)
+            .layout(32);
+        // 设置 link
+        var link = svg.append("g").selectAll(".link")
+            .data(energy.links)
+            .enter().append("path")
+            .attr("class", "link")
+            .attr("d", path)
+            .style("stroke-width", function (d) { return Math.max(1, d.dy); })
+            .sort(function (a, b) {
+                return b.dy - a.dy;
+            })
+            .on('mouseover', function (d) {
+                var coordinates = [0, 0];
+                coordinates = d3.mouse(this);
+                var x = coordinates[0];
+                var y = coordinates[1];
+                toolTips.innerHTML = d.source.name + "->" + d.target.name + "<br/>" + format(d.value);
+                toolTips.style.display = 'block'
+                toolTips.style.top = (y - 20) + 'px'
+                toolTips.style.left = (x + 100) + 'px'
+                // tip.show(d)
+            })
+            .on('mousemove', function (d) {
+                var coordinates = [0, 0];
+                coordinates = d3.mouse(this);
+                var x = coordinates[0];
+                var y = coordinates[1];
+                toolTips.innerHTML = d.source.name + "->" + d.target.name + "<br/>" + format(d.value);
+                toolTips.style.display = 'block'
+                toolTips.style.top = (y - 20) + 'px'
+                toolTips.style.left = (x + 50) + 'px'
+                // tip.show(d)
+            })
+            .on('mouseout', function (d, e) {
+                var evt = window.event || e;
+                mouseHas = false
+                var obj = evt.toElement || evt.relatedTarget;
+                var pa = this;
+                if (pa.contains(obj)) return false;
+                toolTips.style.display = 'none'
+                // tip.show(d)
+            })
+        // 设置node
+        var node = svg.append("g").selectAll(".node")
+            .data(energy.nodes)
+            .enter().append("g")
+            .attr("class", "node")
+            .attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"; })
+            .call(d3.drag()
+                .subject(function (d) {
+                    return d;
+                })
+                .on("start", function () {
+                    this.parentNode.appendChild(this);
+                })
+                .on("drag", dragmove));
+
+        node.append("rect")
+            .attr("height", function (d) { return d.dy; })
+            .attr("width", sankey.nodeWidth())
+            .style("fill", function (d) { return d.color = color(d.name.split("|")[0]); })
+            .style("stroke", function (d) { return d3.rgb(d.color).darker(2); })
+            .append("title")
+            .text(function (d) { return d.name + "\n" + format(d.value); });
+
+        node.append("text")
+            .attr("x", -6)
+            .attr("y", function (d) { return d.dy / 2; })
+            .attr("dy", ".35em")
+            .attr("text-anchor", "end")
+            .attr("transform", null)
+            .style("fill", "#666")
+            .text(function (d) { return d.name; })
+            .filter(function (d) { return d.x < width / 2; })
+            .attr("x", 6 + sankey.nodeWidth())
+            .attr("text-anchor", "start");
+        function dragmove(d) {
+            d3.select(this).attr("transform", "translate(" + d.x + "," + (d.y = Math.max(0, Math.min(height - d.dy, d3.event.y))) + ")");
+            sankey.relayout();
+            link.attr("d", path);
+        }
+    </script>
+</body>
+
+</html>

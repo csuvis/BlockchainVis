@@ -1,0 +1,56 @@
+{
+    "limit": 31,
+    "address": "SLUU9XLukD47AEFUCkwXXzRH7EP277RAdLYV",
+    "from_date_time": "1533772800",
+    "count": 8,
+    "items": [
+        {
+            "time0": 1560297600,
+            "balance": 1270060.6,
+            "balance_diff": 8.4,
+            "trans": 38
+        },
+        {
+            "time0": 1560211200,
+            "balance": 1270052.2,
+            "balance_diff": 7,
+            "trans": 34
+        },
+        {
+            "time0": 1560124800,
+            "balance": 1270045.2,
+            "balance_diff": 6.6,
+            "trans": 33
+        },
+        {
+            "time0": 1559952000,
+            "balance": 1270038.6,
+            "balance_diff": 10.4,
+            "trans": 48
+        },
+        {
+            "time0": 1559865600,
+            "balance": 1270028.2,
+            "balance_diff": 9.6,
+            "trans": 47
+        },
+        {
+            "time0": 1557878400,
+            "balance": 1270018.6,
+            "balance_diff": 7.2,
+            "trans": 36
+        },
+        {
+            "time0": 1557792000,
+            "balance": 1270011.4,
+            "balance_diff": 6.2,
+            "trans": 27
+        },
+        {
+            "time0": 1533168000,
+            "balance": 1270005.2,
+            "balance_diff": 1270005.2,
+            "trans": 152
+        }
+    ]
+}

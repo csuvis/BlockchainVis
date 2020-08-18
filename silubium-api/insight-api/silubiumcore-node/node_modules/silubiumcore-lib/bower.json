@@ -1,0 +1,30 @@
+{
+  "name": "silubiumcore-lib",
+  "main": "./silubiumcore-lib.min.js",
+  "version": "0.0.1",
+  "homepage": "http://silubium.org",
+  "authors": [
+    "SILUBIUM <foundation@silubium.org>"
+  ],
+  "description": "A pure, powerful core for your silubium project.",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "bitcoin",
+    "bitcore",
+    "btc",
+    "satoshi"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "CONTRIBUTING.md",
+    "gulpfile.js",
+    "lib",
+    "index.js",
+    "karma.conf.js",
+    "npm-shrinkwrap.json",
+    "test"
+  ]
+}

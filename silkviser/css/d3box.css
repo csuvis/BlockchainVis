@@ -1,0 +1,126 @@
+/* 区块模式 */
+.block {
+	fill: #129cba;
+	stroke:#31b2eb;
+	stroke-width:1
+}
+
+/* 创世块 */
+.blockGenis {
+	fill: #005578;
+	stroke:#005578;
+	stroke-width:2
+}
+
+/*进度条背景*/
+.barbgclass{
+	fill: #8B572A;
+}
+
+/*进度条前景*/
+.barfgclass{
+	fill: #ae7c4b;
+}
+
+/*区块文字*/
+.blocktext{
+	fill:#814F2C;
+}
+/*区块文字*/
+.blocktextblack{
+	fill: #000000 !important;
+}
+
+/* 链上文字 */
+.chaintext{
+	fill:red;
+	font-size:10px
+}
+
+/* 事件圆圈 */
+.circle{
+	fill-opacity:0.5;
+}
+
+/*首页统计表样式*/
+.bar1-rect{
+	fill:#d6b58e;
+	fill-opacity:1;
+}
+.bar2-rect{
+	fill:#be956b;
+	fill-opacity:1;
+}
+.bar3-rect{
+	fill: #00B454;
+	fill-opacity:1;
+}
+.bar4-rect{
+	fill: #0084cc;
+	fill-opacity:1;
+}
+.line3-rect{
+	fill:none;
+	stroke-opacity:1;
+	stroke:#f36161;
+}
+.line3-text{
+	fill:#f36161;
+	opacity: 1;
+}
+/*图例文字颜色*/
+.legend{
+	fill:#3E475A;
+}
+/*首页提示框*/
+.tips,.dragtips{
+	fill: #FFFFFF;
+	box-shadow: 0 0 18px 0;
+	border-radius: 2px;
+	fill-opacity:0.8;
+}
+.tips-border{
+	stroke:rgba(8,29,44,0.30);
+}
+
+/*显示详情的表格样式*/
+table {
+	width: 100% !important;
+}
+.tabledetail td{
+	border: 1px solid #ddd;
+	height: 40px;
+	padding: 5px;
+}
+.tabledetail tr:hover{ 
+	background: #4992b927;
+}
+
+#vinslistTable td{
+	border: 0px !important;
+}
+#voutslistTable td{
+	border: 0px !important;
+}
+/* 拖选底色 */
+.drag-rect-bg{
+	fill:rgb(184, 208, 226);
+	fill-opacity:0.8;
+}
+/* 拖选前景色 */
+.drag-rect-fg{
+	fill:#0091FF;
+	fill-opacity:0.8;
+}
+/* 拖选按钮 */
+.drag-rect-btn{
+	fill:#0091FF;
+}
+/* 拖选按钮上的线 */
+.drag-rect-btn-line{
+	stroke:rgb(184, 208, 226);
+}
+/* 拖选按钮上的线 */
+.drag-rect-btn-cursor{
+	cursor:pointer;
+}

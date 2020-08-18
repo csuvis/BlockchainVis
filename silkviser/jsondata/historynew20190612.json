@@ -1,0 +1,194 @@
+{
+    "limit": 31,
+    "address": "SLUiHeE74L72hxsAGeMnG6AL8c6DJzFpafqS",
+    "from_date_time": 1560297600,
+    "count": 191,
+    "items": [
+        {
+            "time0": 1560297600,
+            "balance": 119720,
+            "balance_diff": 8500,
+            "trans": 14
+        },
+        {
+            "time0": 1560211200,
+            "balance": 111220,
+            "balance_diff": 500,
+            "trans": 13
+        },
+        {
+            "time0": 1560124800,
+            "balance": 110720,
+            "balance_diff": 2000,
+            "trans": 18
+        },
+        {
+            "time0": 1560038400,
+            "balance": 108720,
+            "balance_diff": -850,
+            "trans": 12
+        },
+        {
+            "time0": 1559952000,
+            "balance": 109570,
+            "balance_diff": 20000,
+            "trans": 15
+        },
+        {
+            "time0": 1559865600,
+            "balance": 89570,
+            "balance_diff": -15000,
+            "trans": 17
+        },
+        {
+            "time0": 1559779200,
+            "balance": 104570,
+            "balance_diff": 900,
+            "trans": 15
+        },
+        {
+            "time0": 1559692800,
+            "balance": 103670,
+            "balance_diff": 1000,
+            "trans": 10
+        },
+        {
+            "time0": 1559606400,
+            "balance": 102670,
+            "balance_diff": -50000,
+            "trans": 18
+        },
+        {
+            "time0": 1559520000,
+            "balance": 152670,
+            "balance_diff": 789,
+            "trans": 12
+        },
+        {
+            "time0": 1559433600,
+            "balance": 151881,
+            "balance_diff": 3500,
+            "trans": 14
+        },
+        {
+            "time0": 1559347200,
+            "balance": 148381,
+            "balance_diff": -6000,
+            "trans": 10
+        },
+        {
+            "time0": 1559260800,
+            "balance": 154381,
+            "balance_diff": 8000,
+            "trans": 17
+        },
+        {
+            "time0": 1559174400,
+            "balance": 146381,
+            "balance_diff": 8000,
+            "trans": 13
+        },
+        {
+            "time0": 1559088000,
+            "balance": 138381,
+            "balance_diff": 6000,
+            "trans": 13
+        },
+        {
+            "time0": 1559001600,
+            "balance": 132381,
+            "balance_diff": -2345,
+            "trans": 10
+        },
+        {
+            "time0": 1558915200,
+            "balance": 134726,
+            "balance_diff": -3476,
+            "trans": 8
+        },
+        {
+            "time0": 1558828800,
+            "balance": 138202,
+            "balance_diff": -9000,
+            "trans": 10
+        },
+        {
+            "time0": 1558742400,
+            "balance": 147202,
+            "balance_diff": 8765,
+            "trans": 13
+        },
+        {
+            "time0": 1558656000,
+            "balance": 138437,
+            "balance_diff": 1000,
+            "trans": 13
+        },
+        {
+            "time0": 1558569600,
+            "balance": 137437,
+            "balance_diff": 15000,
+            "trans": 13
+        },
+        {
+            "time0": 1558483200,
+            "balance": 122437,
+            "balance_diff": 2000,
+            "trans": 13
+        },
+        {
+            "time0": 1558396800,
+            "balance": 120437,
+            "balance_diff": 3000,
+            "trans": 13
+        },
+        {
+            "time0": 1558310400,
+            "balance": 117437,
+            "balance_diff": 60000,
+            "trans": 13
+        },
+        {
+            "time0": 1558224000,
+            "balance": 57437,
+            "balance_diff": -10000,
+            "trans": 13
+        },
+        {
+            "time0": 1558137600,
+            "balance": 67437,
+            "balance_diff": -10500,
+            "trans": 13
+        },
+        {
+            "time0": 1558051200,
+            "balance": 77937,
+            "balance_diff": -20000,
+            "trans": 13
+        },
+        {
+            "time0": 1557964800,
+            "balance": 97937,
+            "balance_diff": 15000,
+            "trans": 13
+        },
+        {
+            "time0": 1557878400,
+            "balance": 82937,
+            "balance_diff": 6000,
+            "trans": 13
+        },
+        {
+            "time0": 1557792000,
+            "balance": 76937,
+            "balance_diff": 2000,
+            "trans": 13
+        },
+        {
+            "time0": 1557705600,
+            "balance": 74937,
+            "balance_diff": 500,
+            "trans": 13
+        }
+    ]
+}

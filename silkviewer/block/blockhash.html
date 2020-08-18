@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/css/bootstrap-table.min.css" rel="stylesheet" type="text/css" />
+
+    <!--[if lte IE 6]>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-ie6.min.css">
+    <![endif]-->
+    <!--[if lte IE 7]>
+    <link rel="stylesheet" type="text/css" href="/css/ie.css">
+    <![endif]-->
+    <link href="/css/style.min.css" rel="stylesheet" type="text/css" />
+    <link href="/css/d3box.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/css/normalize.min.css">
+    <link rel="stylesheet" href="/css/loading.min.css">
+    <script type="text/javascript">
+        window.jQuery || document.write("<script src='/js/common/jquery.min.js'>" + "<" + "/script>");
+    </script>
+    <title>SilkVeiwer Block</title>
+    <style>
+        div.tooltip {
+            color: black;
+            position: absolute;
+            text-align: left;
+            width: auto;
+            height: auto;
+            padding: 5px;
+            font-family: Futura;
+            font: 12px sans-serif;
+            background: #FCB8C3FF;
+            border: 0px;
+            border-radius: 8px;
+            pointer-events: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid mainbg nospace">
+        <script src="/js/baseTop.min.js"></script>
+
+        <div class="row-fluid nospace lrspace">
+            <!-- <div id="globalleftdiv" class="col-xs-0 col-xm-1 col-md-1"></div> -->
+            <div id="globalcenterdiv" class="col-xs-12 col-xm-12 col-md-12 centerbg nospace">
+                 
+                <script src="/js/searchbar.min.js"></script>
+
+                <div class="contentBody">
+                    <h4 id="hmargin" style="margin-top: 0px;">
+                        <span data-i18n-text="bi-Blocksinformation"></span>
+                        <!-- <label class="block_trans" style="font-size: 14px;">
+                            <input type="button" style='padding-bottom: 2px;' name="optionsRadiosinline" id="optionsRadios1" value="more" checked>
+                        </label> -->
+                    </h4>
+                    <!-- 区块详情图 -->
+                    <table id="detailTable" class="tabledetail panel-default"
+                        style="word-wrap:break-word; word-break:break-all;">
+                        <tr>
+                            <th width="20%" nowrap><span data-i18n-text="bi-Blockheight"></span>:</th>
+                            <th><a id="previousblockhash" data-i18n-title="bi-Prev" class="btn"
+                                    href="/block/blockhash.html?hash="><span
+                                        class="glyphicon glyphicon-circle-arrow-left"></span></a>&nbsp;&nbsp;
+                                <span id="blockheight"></span>
+                                &nbsp;&nbsp;<a id="nextblockhash" data-i18n-title="bi-Next" class="btn"
+                                    href="/block/blockhash.html?hash="><span
+                                        class="glyphicon glyphicon-circle-arrow-right"></span></a></th>
+                        </tr>
+                        <tr>
+                            <td><span data-i18n-text="bi-Blockhash"></span>:</td>
+                            <td><span id="blockhash"></span></td>
+                        </tr>
+                        <tr>
+                            <td><span data-i18n-text="bi-Age"></span>:</td>
+                            <td><span id="blocktime"></span></td>
+                        </tr>
+                        <tr>
+                            <td><span data-i18n-text="bi-Confirmations"></span>:</td>
+                            <td><span id="blockconfirmations"></span></td>
+                        </tr>
+                        <tr>
+                            <td><span data-i18n-text="bi-Size"></span>:</td>
+                            <td><span id="blocksize"></span></td>
+                        </tr>
+                        <tr>
+                            <td><span data-i18n-text="bi-Reward"></span>:</td>
+                            <td><span id="blockreward"></span></td>
+                        </tr>
+                        <tr>
+                            <td><span data-i18n-text="bi-Txsfee"></span>:</td>
+                            <td><span id="blocktxsfee"></span></td>
+                        </tr>
+                         <tr>
+                            <td><span data-i18n-text="bi-Version"></span>:</td>
+                            <td><span id="blockversion"></span></td>
+                        </tr>
+                        <tr>
+                            <td><span data-i18n-text="bi-minedby"></span>:</td>
+                            <td><span id="blockminedby"></span></td>
+                        </tr>
+                       <!--  <tr>
+                            <td><span data-i18n-text="bi-Transactions"></span>:</td>
+                            <td><span id="blocktransactions"></span></td>
+                        </tr> -->
+                    </table>
+
+                    <!-- 交易列表 -->
+                    <h4 class="hmargin_special" style="margin-top: 0px">
+                        <span data-i18n-text="bi-Transactions"></span>
+                    </h4>
+                    <table id="listTable" style="word-wrap:break-word; word-break:break-all;" class="panel-default"></table>
+
+                    <!--start：版权及底部信息-->
+                    <script src="/js/baseFooter.min.js"></script>
+                    <!--end:版权及底部信息-->
+                </div>
+            </div>
+            <!-- <div id="globalrightdiv" class="col-xs-0 col-xm-1 col-md-1"></div> -->
+        </div>
+    </div>
+
+    <!-- 通用js -->
+
+    <script type="text/javascript" src="/js/common/browseType.min.js?v=6"></script>
+    <script type="text/javascript">
+        if (lowIe8()) {//判断浏览器版本 browseType.js
+            alert("哎呀，你的浏览器内核是" + IEVersion() + "，版本太低了影响显示效果，有些功能也可能不正常。升个级嘛:) 建议用火狐(firefox)或谷歌(chrome)浏览器！！！");
+        }
+    </script>
+    <!--[if lt IE 9]>
+     <script src="/js/common/html5shiv.min.js"></script>
+     <script src="/js/common/respond.min.js"></script>
+     <![endif]-->
+    <!--[if !IE]> -->
+    <script src="/js/common/jquery.2.1.1.min.js"></script>
+    <!-- <![endif]-->
+
+    <!--[if IE]>
+ <script src="/js/common/jquery.1.11.1.min.js"></script>
+ <![endif]-->
+    <!--[if !IE]> -->
+
+    <!-- <![endif]-->
+
+    <!--[if IE]>
+ <script type="text/javascript">
+ window.jQuery || document.write("<script src='/js/common/jquery1x.min.js'>"+"<"+"/script>");
+ </script>
+ <![endif]-->
+    <script type="text/javascript">
+        if ('ontouchstart' in document.documentElement)
+            document
+                .write("<script src='/js/common/jquery.mobile.custom.min.js'>"
+                    + "<" + "/script>");
+    </script>
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <!-- <script src="/js/common/jquery.min.js"></script> -->
+    <script src="/js/common/bootstrap.min.js"></script>
+    <script src="/js/common/bootstrap-table.min.js"></script>
+
+    <script src="/js/common/jquery.tips.min.js"></script>
+    <script src="/js/search.min.js"></script>
+
+    <script type="text/javascript">
+        $("#navbar-gbtag").collapse({
+            toggle: false
+        });
+        function collapse() {
+            $("#navbar-gbtag").collapse("toggle");
+        }
+        function changeTopWidth() {
+            try {
+                var leftw = $("#globalcenterdiv").position().left;
+                var centw = window.innerWidth; //最终取innerWidth才使得大家都一样！
+                var leftpad = 0.02 * centw;
+                // console.log(centw);
+
+                if (leftw > 0) {
+                    $("#globalleftdiv").show();
+                    $("#globalrightdiv").show();
+                } else {
+                    $("#globalleftdiv").hide();
+                    $("#globalrightdiv").hide();
+                }
+
+                // 搜索框
+                //$(".searchdiv").css("margin-left", leftpad);
+                //$(".searchdiv").css("margin-right", leftpad);
+                // 搜索框
+                $(".row-fluid").css("margin-left", leftpad);
+                $(".row-fluid").css("margin-right", leftpad);
+                // $('.block_trans').css("margin-right", leftpad);
+                // $('.block_trans').css("margin-top", leftpad+2);
+
+                $(".contentBody").css("margin-left", leftpad);
+                $(".contentBody").css("margin-right", leftpad);
+                $(".contentBody").css("margin-top", leftpad);
+                $(".hmargin").css("margin-top", leftpad);
+
+                var current = $('#coin_radio').height();
+
+                $('.hmargin_special').css('margin-top',leftpad-0.5*current)
+                $('#coin_radio').css('margin-top', 0.2*leftpad);
+
+                $('.pos1').css('margin-left',centw*0.215);
+                $('.pos2').css('margin-left',centw*0.188);
+                $('.pos3').css('margin-left',centw*0.183);
+
+                leftpad = leftw + leftpad;
+                $(".navbar-header").css("margin-left", leftpad);
+                $("#navbar-gbtag").css("margin-right", leftpad);
+                $("#navbutton").css("margin-right", leftpad);
+
+            } catch (err) {
+
+            }
+        }
+        changeTopWidth();
+        // $(window).resize(function () {
+        //     changeTopWidth();
+        //     window.location.reload();
+        // });
+
+        //转换豪秒为日期
+        function millstodate(time) {
+            return new Date(1000 * time);
+        }
+    </script>
+    <script src="/js/common/jquery.i18n.properties.min.js"></script>
+    <script src="/js/common/language.min.js"></script>
+    <script src="/js/common/d3.v5.min.js"></script>
+    <script src="/js/common/date.format.min.js"></script>
+    <script src="/js/common/linetext.min.js"></script>
+    <script src="/js/common/UrlParam.min.js"></script>
+    <script src="/js/globalvar.min.js"></script>
+    <script src="/js/common/mask.min.js"></script>
+    <script src="/jsontest/testArray.js"></script>
+
+    <script src="/js/blockhash.min.js"></script>
+</body>
+
+</html>

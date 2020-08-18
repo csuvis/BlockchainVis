@@ -1,0 +1,251 @@
+html, body {
+	font-family: "Monaco","Courier New","Times New Roman";
+	padding: 0px;
+	background-color: #415475;
+}
+@media (min-width:768px)
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+@media (min-width:768px)
+::-webkit-scrollbar-thumb {
+    background-color: #F5F5F5;
+}
+@media (min-width:768px)
+::-webkit-scrollbar-thumb:hover {
+    background-color: #F5F5F5;
+}
+/*#coin_glyph{
+	margin-top: 12px;
+}*/
+
+.coin_glyph{
+	background-color:white;
+}
+.blockbg{
+	fill: #eac59a;
+}
+.blocktext1{
+	/*font-weight: bold;*/
+	fill: #814F2C !important;
+}
+.blocktext2{
+	/*font-weight: bold;*/
+	fill: #814F2C !important;
+}
+.tt{
+	display: none;
+}
+.block_trans{
+	float: right;
+
+}
+#optionsRadios1{	
+	/*height: 20px;*/
+	border:1px solid #0084cc;
+	border-radius: 3px;
+	font-weight: normal;
+	background-color: #0084cc;
+	color: white;
+	text-align: center;
+	font-family: "Monaco","Courier New","Times New Roman";
+	/*padding-top: 0px;*/
+}
+label{
+	margin-bottom: 10px;
+
+}
+h4,h5{
+	font-family: "microsoft yahei", simhei;
+	color:#0084cc;
+
+}
+
+/* svg主类 */
+.mainClass {
+	-webkit-text-size-adjust: none !important;
+}
+
+/* hr { */
+/* 	border-top: 2px solid #0084CC !important; */
+/* 	margin-top: 15px !important; */
+/* } */
+
+.footerpadding {
+	border-top: 1px solid #ccc !important;
+	/*margin-top: 20px !important;*/
+	margin-bottom: 20px !important;
+}
+
+.mainbg {
+	background-color: #415475 !important;
+}
+
+.centerbg {
+	background-color: #ffffff !important;
+	margin-bottom: 10px !important;
+}
+#globalcenterdiv{
+	margin-bottom: 10px !important;
+}
+#navbutton {
+	/*margin-top: 20px;*/
+}
+.navbar-header{
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+.navbar {
+	padding-top: 10px;
+}
+
+.navbar-collapse {
+	margin-top: 10px;
+}
+/* 顶部不需要空间 */
+.nospace {
+	margin: 0px !important;
+	padding: 0px !important;
+	/*margin-bottom: 10px;*/
+}
+/*左右内空*/
+.lrspace{
+	margin: 0px !important;
+	padding-top: 0px !important;
+	padding-bottom: 10px !important;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+
+/* 顶部样式 */
+.navbar ul li a {
+	color: #ffffff !important;
+}
+
+/* 顶部鼠标移上去 */
+.navbar ul li a:hover {
+	color: #ffffff !important;
+	background-color: #0084CC !important;
+}
+
+/* 导航栏底色 */
+.topdiv {
+	background-color: rgb(65, 84, 117) !important;
+	border: 0px !important;
+}
+
+/* 搜索框 边线 */
+#searchkeys {
+	border: 1px solid #0084CC;    
+	/*margin-top: 2px;*/
+}
+/* 搜索按钮颜色 */
+.btncolor {
+	color: #ffffff !important;
+	background-color: #0084CC !important;
+}
+/* 搜索栏目顶部空间 */
+.searchdiv {
+	/*padding-top: 20px;
+	padding-bottom: 20px;*/
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+/*#d3layout,#d3tjb {
+	margin-top: 10px;
+}*/
+
+/*#hmargin {
+	color: #0084CC !important;
+	margin-top: 0px;
+}*/
+
+/* 首页汇总数 */
+.lastblock{
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:20px;
+	background-color:#eeeeee;
+	border: 1px solid #d1d1cf;
+}
+
+#lastblock a, #trans,.countaddr {
+	color: #333 !important;
+	font-weight: normal;
+}
+
+.panel-default {
+	color: #000000 !important;
+	background-color: #dfdfdf !important;
+	border-color: #acacaa !important;
+}
+
+.panel-default a {
+	color: #0085d3 !important;
+}
+
+.panel-heading {
+	color: #ffffff !important;
+	background-color: #959595 !important;
+}
+
+.panel-heading a {
+	color: #dfefff !important;
+	font-weight: bold;
+}
+
+.footer {
+	/*padding-top: 10px;*/
+	text-align: center;
+}
+
+/* 文字换行 */
+.wordwrap {
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+/* 隔行变色 */
+.linebg {
+	background: #c3c3c1 !important;
+}
+
+/* 上下行距增加 */
+.addpadding {
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+.addpadding:hover{
+    display: block;
+    background: green;     
+}
+
+/* 代码内容自动换行 */
+pre {
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+/*接口关键数字强调色*/
+.apiforeColor {
+	color: red;
+}
+
+/* 链上应用 */
+.apptitle {
+	color: #0084CC;
+	height: 35px;
+	font-weight: bold;
+	line-height: 42px;
+	border-bottom: 1px solid #0084CC;
+}
+.in_border{
+	border: 1px solid #dee2e6;
+}
