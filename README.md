@@ -46,5 +46,5 @@ directory before use.
 ## Reference Paper
 + Zengsheng Zhong, Shuirun Wei, Yeting Xu, Ying Zhao, Fangfang Zhou, Feng Luo, 
 and Ronghua Shi. SilkViser: A Visual Explorer of Blockchain-based Cryptocurrency 
-Transaction Data[C]. *IEEE VIS Conference on Visual Analytics Science and Technology*, 
+Transaction Data[C]//*IEEE VIS Conference on Visual Analytics Science and Technology*, 
 2020 (IEEE VIS 2020 VAST Conference Track).
